@@ -1,9 +1,0 @@
-//
-// Copyright (c) 2023 INRIA
-//
-
-#ifndef PROXSUITE_OSQP_PARALLEL_OMP_HPP
-#define PROXSUITE_OSQP_PARALLEL_OMP_HPP
-
-
-#endif // ifndef PROXSUITE_OSQP_PARALLEL_OMP_HPP

@@ -1,9 +1,0 @@
-//
-// Copyright (c) 2022 INRIA
-//
-
-#ifndef PROXSUITE_OSQP_TIMINGS_HPP
-#define PROXSUITE_OSQP_TIMINGS_HPP
-
-
-#endif // ifndef PROXSUITE_OSQP_TIMINGS_HPP
