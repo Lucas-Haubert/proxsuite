@@ -1,6 +1,6 @@
 #include <iostream>
-#include <proxsuite/proxqp/dense/dense.hpp> // load the dense solver backend
-#include <proxsuite/proxqp/utils/random_qp_problems.hpp> // used for generating a random convex qp
+#include <proxsuite/solvers/proxqp/dense/dense.hpp> // load the dense solver backend
+#include <proxsuite/solvers/utils/random_qp_problems.hpp> // used for generating a random convex qp
 
 using namespace proxsuite::proxqp;
 using T = double;
@@ -25,4 +25,8 @@ main()
           qp_random.C,
           qp_random.l,
           qp_random.u); // initialize the model
+  std::cout << "H:\n" << qp_random.H << std::endl;
+  std::cout << "g.T:" << qp_random.g.transpose() << std::endl;
+  std::cout << "A:\n" << qp_random.A << std::endl;
+  std::cout << "b.T:" << qp_random.b.transpose() << std::endl;
 }

@@ -1,6 +1,6 @@
 #pragma once
 
-#include <proxsuite/proxqp/utils/random_qp_problems.hpp>
+#include <proxsuite/solvers/utils/random_qp_problems.hpp>
 
 namespace proxsuite {
 namespace proxqp {

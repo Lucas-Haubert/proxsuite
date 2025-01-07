@@ -44,8 +44,8 @@ Solve Time consumption(dense): 0.101507s
 
 */
 #include <iostream>
-#include <proxsuite/proxqp/dense/dense.hpp>
-#include <proxsuite/proxqp/utils/random_qp_problems.hpp>
+#include <proxsuite/solvers/proxqp/dense/dense.hpp>
+#include <proxsuite/solvers/utils/random_qp_problems.hpp>
 
 using namespace proxsuite::proxqp;
 using T = double;
